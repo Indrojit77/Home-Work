@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+section {
+    padding: 70px 0px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.heading {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.sub-heading {
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.underline {
+    border-top: 5px solid #00000036;
+    width: 5% !important;
+    margin: 18px auto !important;
+}
+
+.writing-part {
+    margin-bottom: 6%;
+}
+
+.box {
+    padding: 0px 6%;
+}
+
+.secound {
+    padding: 2px 2%;
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.box1 {
+    padding: 0% 6.4%;
+}
+
+#services .box img {
+    /* height: 150px; */
+
+}
+
+.btn {
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color: aliceblue;
+    box-shadow: ;
+    border-radius: 10px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.row {
+    width: 100%;
+    float: left;
+}
+
+[class*="col-"] {
+    float: left;
+
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* header-part  */
+header {
+    background-color: #87509c;
+    color: aliceblue;
+}
+
+.logo-part {
+    margin-top: 15px;
+    text-align: left;
+}
+
+nav {
+    padding: 10px 0px;
+}
+
+ul {
+    text-align: end;
+    padding: 8px 0px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px 8px;
+    margin: 0px 5px;
+
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+
+}
+
+.hero-part {
+    padding: 150px 16%;
+}
+
+.hero-part h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.hero-part button {
+    background-color: #eb7d4b;
+    margin-top: 50px;
+}
+
+/* }service section  */
+#services {
+    background-color: #17c2a4;
+    color: white;
+
+}
+
+#services .writing-part p {
+    width: 35%;
+    margin: auto;
+}
+
+/* teem section  */
+#team {
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+
+.des {
+    color: #30bae7;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.team-icons {
+    margin-top: 25px;
+}
+
+.team-icons i {
+    font-size: 17px;
+    width: 40px;
+    background-color: #bdd1df;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0px 2px;
+}
+
+/* skill section  */
+#skill {
+    color: #3c4761;
+}
+
+#skill .writing-part p {
+    width: 30%;
+    margin: auto;
+}
+
+/* portfolio section  */
+#portfolio {
+    background-color: #ffdd99;
+    color: #393939;
+}
+
+#portfolio .writing-part p {
+    width: 30%;
+    margin: auto;
+}
+
+.portfolio-btn-part {
+    margin-top: 40px;
+}
+
+.portfolio-btn-part a button {
+    background-color: rgba(0, 0, 0, 0.151);
+    padding: 7px 20px;
+    margin: 0px 5px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 5px;
+
+}
+
+.portfolio-btn-part a button:hover {
+    background-color: whitesmoke;
+}
+
+.robin {
+    margin-top: 50px;
+}
+
+#portfolio .btn {
+    background-color: #17c2a4;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* About secton  */
+#about {
+    background-color: #d74680;
+    color: white;
+}
+
+#about .box-part {
+    margin-top: 50px;
+}
+
+.about-writing-part {
+    text-align: start;
+    padding-right: 70px;
+
+}
+
+.about-writing-part .des {
+    color: #ffdd99;
+}
+
+/* contact section  */
+#contact {
+    background-color: #3c5499;
+    color: #fff;
+}
+
+form {
+    width: 70%;
+    margin: auto;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #273a71;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #fff;
+    font-size: 20px;
+}
+
+.form-name-part input {
+    width: 98%;
+}
+
+.form-email-part input {
+    width: 98%;
+    margin-left: 2%;
+}
+
+textarea {
+    margin: 10px 0px;
+}
+
+input[type="submit"] {
+    background-color: #30bae7;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#footer {
+    background-color: #344b8e;
+}
+
+#footer ul {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#footer ul li {
+    margin: 0px 40px;
+}

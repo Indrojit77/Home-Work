@@ -1,0 +1,26 @@
+/* small/mobile divice 
+@media (max-width:600px) {
+    .btn {
+        padding: 5px;
+        width: 150px;
+    }
+
+    header {
+        background-color: blue;
+    }
+
+    .hero-part {
+        padding: 50px 0px;
+    }
+
+    .hero-part h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .hero-part button {
+        margin-top: 15px;
+    }
+
+
+} */
